@@ -1,0 +1,29 @@
+{
+  "name": "registration-api",
+  "version": "1.0.0",
+  "description": "api for registration",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "api testing"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamzaimran555/Registration-Api.git"
+  },
+  "author": "Hamza Imran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamzaimran555/Registration-Api/issues"
+  },
+  "homepage": "https://github.com/hamzaimran555/Registration-Api#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
